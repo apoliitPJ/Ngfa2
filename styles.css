@@ -1,0 +1,42 @@
+*{ padding: 0px;  margin: 0px;}
+#navbar{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: firebrick;
+    }
+
+#links{display: inline;}
+#navbar #links a{ 
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    opacity: .80;
+    transition: 0.4s;        
+}
+.rounded{border-radius: 5px;}
+.banner{
+    background-image: url(pngtree-coffee-beans-and-a-white-coffee-cup-photo-picture-image_2375828.jpg);
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 250vh;
+}
+.banner h2{
+    color: rgb(33, 17, 3);
+
+
+}
+
+#navbar #links a:hover{opacity: 1; transition: 0.4s;}    
+#yt{background-color: red; color: white;}
+#fb{background-color: darkblue; color: white;}
+#dc{background-color: darkslateblue; color: white;}
+#rd{background-color: chocolate; color: white;}
+#twt{background-color: rgb(70, 70, 70); color: white;}
+
+
